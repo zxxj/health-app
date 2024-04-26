@@ -1,0 +1,1 @@
+<view><view class="swiper-container"><up-swiper wx:if="{{a}}" u-i="3a14768e-0" bind:__l="__l" u-p="{{a}}"></up-swiper></view></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "up-swiper": "../../uni_modules/uview-plus/components/u-swiper/u-swiper"
+  }
+}

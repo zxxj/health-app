@@ -1,0 +1,85 @@
+{
+  
+  "easycom": {
+  		"autoscan": true,
+  		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+  		"custom": {
+  			"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+  			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+  	    "^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+  		}
+  	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		  "path" : "pages/Home/index",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+		{
+		  "path" : "pages/Scheme/index",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+		{
+		  "path" : "pages/ClockIn/index",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+		{
+		  "path" : "pages/Mall/index",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "",
+		    "enablePullDownRefresh" : false
+		  }
+		},
+		{
+		  "path" : "pages/Mine/index",
+		  "style" : 
+		  {
+		    "navigationBarTitleText" : "",
+		    "enablePullDownRefresh" : false
+		  }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Scheme/index",
+        "text": "方案"
+      },
+      {
+        "pagePath": "pages/ClockIn/index",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/Mall/index",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/Mine/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

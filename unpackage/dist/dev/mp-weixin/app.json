@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/Home/index",
+    "pages/Scheme/index",
+    "pages/ClockIn/index",
+    "pages/Mall/index",
+    "pages/Mine/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Scheme/index",
+        "text": "方案"
+      },
+      {
+        "pagePath": "pages/ClockIn/index",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/Mall/index",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/Mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
